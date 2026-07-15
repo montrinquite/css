@@ -12,6 +12,12 @@ header {background: black;
     padding: 10px 0;
     text-align: center;}
 
+.info {background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+
 .nav {list-style: none;
     padding: 10px 0;
     display: flex;
@@ -26,7 +32,7 @@ header {background: black;
     color: black;
 }
 
-img {max-width: 200px;
+img {max-width: auto;
     border-radius: 0%;
 }
 
@@ -45,4 +51,9 @@ img {max-width: 200px;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 20px;
-    margin: 20px;}
+    margin-left: 20px;}
+
+footer {background: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;}
